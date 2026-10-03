@@ -22,3 +22,7 @@ test("clamp keeps a value inside the range", () => {
   assert.strictEqual(clamp(-3, 1, 10), 1);
   assert.strictEqual(clamp(42, 1, 10), 10);
 });
+
+test("clamp rejects an inverted range", () => {
+  assert.throws(() => clamp(5, 10, 1), RangeError);
+});
