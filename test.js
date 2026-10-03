@@ -2,7 +2,7 @@ import assert from "node:assert";
 import test from "node:test";
 
 // Test variable (change this value to break/fix the test)
-const VALUE = 8;
+const VALUE = 7;
 
 test("sprawdzenie czy wartość mieści się w zakresie 6-10", () => {
   // Condition: VALUE >= 6 and VALUE <= 10
