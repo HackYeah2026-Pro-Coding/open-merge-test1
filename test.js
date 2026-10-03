@@ -6,7 +6,7 @@ const VALUE = 10;
 
 test("sprawdzenie czy wartość mieści się w zakresie 6-10", () => {
   // Condition: VALUE >= 6 and VALUE <= 10
-  const isInRange = VALUE >= 6 && VALUE <= 10;
+  const isInRange = VALUE >= 6 && VALUE <= 7;
 
   // Verification: if isInRange is false, the test will generate a readable error
   assert.strictEqual(
